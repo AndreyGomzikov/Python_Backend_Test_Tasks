@@ -110,5 +110,5 @@ python manage.py test
 ```
 
 
-# Тестовое задание выполил
+# Тестовое задание выполнил
 [Андрей Гомзиков](https://github.com/AndreyGomzikov)
