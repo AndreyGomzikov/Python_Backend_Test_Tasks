@@ -1,0 +1,70 @@
+[
+  {
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+      "name": "Фрукты",
+      "slug": "fruits",
+      "image": "category/fruits.jpg"
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+      "name": "Молочные продукты",
+      "slug": "dairy",
+      "image": "category/dairy.jpg"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Яблоки",
+      "slug": "apples",
+      "image": "subcategory/apples.jpg"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 3,
+    "fields": {
+      "category": 2,
+      "name": "Молоко",
+      "slug": "milk",
+      "image": "subcategory/milk.jpg"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+      "subcategory": 1,
+      "name": "Яблоко",
+      "slug": "apple",
+      "image": "products/original/apple.jpg",
+      "image_small": "products/small/apple_small.jpg",
+      "image_medium": "products/medium/apple_medium.jpg",
+      "image_large": "products/large/apple_large.jpg",
+      "price": "89.90",
+      "created_at": "2026-06-09T12:00:00Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+      "subcategory": 3,
+      "name": "Молоко",
+      "slug": "milk",
+      "image": "products/original/milk.jpg",
+      "image_small": "products/small/milk_small.jpg",
+      "image_medium": "products/medium/milk_medium.jpg",
+      "image_large": "products/large/milk_large.jpg",
+      "price": "75.50",
+      "created_at": "2026-06-09T12:00:00Z"
+    }
+  }
+]
